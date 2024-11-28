@@ -1,0 +1,10 @@
+# requirements.txt
+telebot
+openai
+pymongo
+Pillow
+python-dotenv
+requests
+
+# Procfile
+worker: python ina-telegram-bot.py
